@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "types": ["cypress", "node", "@badeball/cypress-cucumber-preprocessor"],
+    "baseUrl": "./",
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "paths": {
+      "jquery": ["node_modules/jquery/dist/jquery"]
+    },
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./node_modules/cypress",
+    "cypress/**/*.js",
+    "cypress/**/*.ts",
+    "cypress/**/*.json",
+    "cypress/**/**/*.ts",
+    "cypress/**/**/*.js",
+  ]
+}
